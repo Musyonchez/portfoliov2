@@ -30,3 +30,11 @@
 .navbar-container ul li :hover {
     color: #FF5F15;
 }
+
+@media screen and (max-width: 490px) {
+    
+    .navbar-container ul li {
+        padding: 0 5px;
+        font-size: medium;
+    }  
+}
