@@ -19,7 +19,7 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-card-back'>
             <h4>BIOAGRO</h4>
-            <a href="#">KNOW MORE &rarr;</a>
+            <a href="https://biagrosolutions.netlify.app/">KNOW MORE &rarr;</a>
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-card-back'>
             <h4>AP MUSYOKA</h4>
-            <a href="">KNOW MORE &rarr;</a>
+            <a href="https://paysaas.netlify.app/">KNOW MORE &rarr;</a>
           </div>
         </div>
       </div>
