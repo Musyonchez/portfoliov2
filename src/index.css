@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: #fff;
+}
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: background-image: linear-gradient(to top, #111a17, #111a17, #111a17, #111a17, #111a17, #18201d, #1f2623, #262d2a, #373d39, #484d49, #5a5e5a, #6c6f6c);
+  --color-footer : #031B34;
+  --color-bar: #244235;
+  --color-text: #F3F8F4;
+  --color-subtext: #FF8A71;
+}
+

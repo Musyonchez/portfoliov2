@@ -1,0 +1,148 @@
+.repos-container {
+    padding: 30px 0 30px 0;
+    background: radial-gradient(circle, rgba(95,103,98,1) 0%, rgba(17,26,23,1) 50%, rgba(17,26,23,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.repos-container a {
+    color: #fff;
+}
+
+.repos-container p {
+    font-size: 20px;
+}
+
+.repos-title {
+    position: relative;
+    justify-content: center;
+}
+
+.repos-title .repos-top-word {
+    font-weight: bolder;
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    font-size: 75px;
+    color: #FF5F15;
+    left: 50%;
+    top: 25%;
+  }
+  
+.repos-title .repos-bottom-word {
+    display: flex;
+    position: relative;
+    font-size: 150px;
+    opacity: 0.1;
+    left: 42%;
+    width: 45%;
+  }
+
+.repos-search #search {
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.repos-search button {
+    cursor: pointer;
+    color: #fff;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #FF5F15;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.repos-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.repos-header a {
+    text-decoration: none;
+    color: #FF5F15;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.repos-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.repos-button button {
+    background-color: #FF5F15;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+    background-image: var(--background-image);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.repos-button button a {
+    text-decoration: none;
+}
+
+.repos-header img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.repos-repos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: auto auto auto auto;
+}
+
+.repos-repos button {
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: var(--background-image);
+    padding: 20px;
+    font-size: 20px;
+    background-color: #FF5F15;
+}
+
+.repos-repos button a {
+    text-decoration: none;
+    padding: 30px 30px 30px 30px;
+}
+
+@media screen and (max-width : 550px) {
+    .repos-repos {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .repos-repos {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: auto auto;
+    }
+}

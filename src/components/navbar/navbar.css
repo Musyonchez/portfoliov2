@@ -1,0 +1,32 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000;
+}
+
+.navbar-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+}
+
+.navbar-container ul li {
+    padding: 0 10px;
+    font-size: large;
+}
+
+.navbar-container ul li:first-child {
+    background-color: #FF5F15;
+}
+
+.navbar-container ul li:first-child :hover {
+    color: #fff;
+}
+
+.navbar-container ul li :hover {
+    color: #FF5F15;
+}
