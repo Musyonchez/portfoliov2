@@ -55,3 +55,127 @@
     padding: 0 50px;
     text-wrap: balance;
 }
+
+@media screen and (max-width: 1030px) {
+
+    
+    .aboutme-title {
+        position: relative;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .aboutme-title .about-top-word {
+        font-weight: bolder;
+        opacity: 1;
+        position: absolute;
+        display: flex;
+        font-size: 75px;
+        color: #FF5F15;
+        left: 7%;
+        top: 25%;
+      }
+      
+    .aboutme-title .about-bottom-word {
+        display: flex;
+        position: relative;
+        font-size: 150px;
+        opacity: 0.1;
+        left: 0;
+        width: 45%;
+      }
+    
+    .aboutme-content {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .aboutme-profile {
+        width: 25vw;
+        height: 25vh;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        left: 50%;
+        margin: auto;
+    }
+
+    .aboutme-profile img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+}
+
+
+@media screen and (max-width : 850px) {
+    .aboutme-title .about-top-word {
+        font-weight: bolder;
+        opacity: 1;
+        position: absolute;
+        display: flex;
+        font-size: 50px;
+        color: #FF5F15;
+        left:7%;
+        top: 25%;
+      }
+      
+    .aboutme-title .about-bottom-word {
+        display: flex;
+        position: relative;
+        font-size: 100px;
+        opacity: 0.1;
+        left: 3%;
+        width: 45%;
+      }
+}
+
+@media screen and (max-width : 700px) {
+.aboutme-text {
+    font-size: 25px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: start;
+    margin: 0 5px;
+    padding: 0 50px;
+    text-wrap: balance;
+}
+}
+
+@media screen and (max-width : 500px) {
+    .aboutme-title .about-top-word {
+        font-weight: bolder;
+        opacity: 1;
+        position: absolute;
+        display: flex;
+        font-size: 25px;
+        color: #FF5F15;
+        left:7%;
+        top: 25%;
+      }
+      
+    .aboutme-title .about-bottom-word {
+        display: flex;
+        position: relative;
+        font-size: 50px;
+        opacity: 0.1;
+        left: 3%;
+        width: 45%;
+      }
+}
+
+@media screen and (max-width : 450px) {
+    .aboutme-text {
+        font-size: 25px;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        text-align: start;
+        margin: 0 5px;
+        padding: 0 5px;
+        text-wrap: balance;
+    }
+    }

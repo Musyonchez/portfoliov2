@@ -22,7 +22,7 @@
     display: flex;
     font-size: 75px;
     color: #FF5F15;
-    left: 50%;
+    left: 7%;
     top: 25%;
   }
   
@@ -31,7 +31,7 @@
     position: relative;
     font-size: 150px;
     opacity: 0.1;
-    left: 47%;
+    left: 0;
     width: 45%;
   }
 
@@ -67,6 +67,28 @@
     flex: 1;
 }
 
+@media screen and (max-width : 850px) {
+    .contact-title .contact-top-word {
+        font-weight: bolder;
+        opacity: 1;
+        position: absolute;
+        display: flex;
+        font-size: 50px;
+        color: #FF5F15;
+        left:7%;
+        top: 25%;
+      }
+      
+    .contact-title .contact-bottom-word {
+        display: flex;
+        position: relative;
+        font-size: 100px;
+        opacity: 0.1;
+        left: 3%;
+        width: 45%;
+      }
+}
+
 @media screen and (max-width : 600px) {
     .contact-content {
         display: flex;
@@ -79,4 +101,27 @@
         margin-bottom: 30px;
     }
     
+}
+
+
+@media screen and (max-width : 500px) {
+    .contact-title .contact-top-word {
+        font-weight: bolder;
+        opacity: 1;
+        position: absolute;
+        display: flex;
+        font-size: 25px;
+        color: #FF5F15;
+        left:7%;
+        top: 25%;
+      }
+      
+    .contact-title .contact-bottom-word {
+        display: flex;
+        position: relative;
+        font-size: 50px;
+        opacity: 0.1;
+        left: 3%;
+        width: 45%;
+      }
 }
