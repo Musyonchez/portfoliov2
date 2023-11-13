@@ -17,6 +17,14 @@
 .navbar-container ul li {
     padding: 0 10px;
     font-size: large;
+    text-decoration: none;
+}
+
+.navbar-container ul li a {
+    padding: 0 10px;
+    font-size: large;
+    text-decoration: none;
+    font-size: large;
 }
 
 .navbar-container ul li:first-child {
