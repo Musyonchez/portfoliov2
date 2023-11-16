@@ -6,11 +6,13 @@ import Aboutme from './components/aboutme/Aboutme';
 import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
 import Repos from './components/repos/Repos';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return (
     <div className="App">
         <Header />
+        <Navbar />
         < Aboutme />
         <Skills />
         <Repos />

@@ -5,3 +5,11 @@
     width: 100vw;
     height: 10vh;
 }
+
+@media screen and (max-width: 500ppx) {
+    .navbar-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
