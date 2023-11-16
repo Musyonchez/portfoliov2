@@ -5,7 +5,7 @@ import projectsimage4 from '../../assets/projectsimage4.png';
 
 const Portfolio = () => {
   return (
-    <div className='portfolio-container'>
+    <div className='portfolio-container' id='projects'>
       <div className='portfolio-title'>
         <span className='portfolio-top-word'>projects</span>
         <span className='portfolio-bottom-word'>PROJECTS</span>

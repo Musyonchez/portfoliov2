@@ -4,7 +4,7 @@ import profilephoto from '../../assets/profilephoto.jpeg'
 
 const Aboutus = () => {
   return (
-    <div className='aboutme-container'>
+    <div className='aboutme-container' id='aboutme'>
       <div className='aboutme-title'>
         <span className='about-top-word'>about me</span>
         <span className='about-bottom-word'>ABOUT</span>

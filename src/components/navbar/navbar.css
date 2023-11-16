@@ -3,13 +3,18 @@
     flex-direction: row;
     background-color: #fff;
     width: 100vw;
-    height: 10vh;
 }
 
-@media screen and (max-width: 500ppx) {
-    .navbar-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.navbar-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-buttons button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
 }
