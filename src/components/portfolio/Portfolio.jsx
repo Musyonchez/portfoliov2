@@ -31,8 +31,8 @@ const Portfolio = () => {
             <img src={projectsimage4} alt="" />
           </div>
           <div className='portfolio-card-back'>
-            <h4>AP MUSYOKA</h4>
-            <a href="https://paysaas.netlify.app/">KNOW MORE &rarr;</a>
+            <h4>FIRDAWS PROJECT</h4>
+            <a href="https://firdawsportfolio.vercel.app/">KNOW MORE &rarr;</a>
           </div>
         </div>
       </div>
