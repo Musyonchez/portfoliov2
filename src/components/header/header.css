@@ -6,8 +6,8 @@
 .header-title {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     padding: 10px 50px;
 }
 
@@ -17,15 +17,6 @@
     font-size: 55px;
 }
 
-.header-title button {
-    padding: 20px 40px;
-    border-radius: 25px;
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    background-color: #FF5F15;
-    margin-bottom: 20px;
-}
 
 .header-content {
     display: grid;
@@ -66,12 +57,6 @@
         margin: 0;
         padding: 0;
         font-size:55px;
-    }
-    
-    .header-title button {
-        padding: 15px 30px;
-        border-radius: 25px;
-        font-size: 20px;
     }
     
     .header-content {
